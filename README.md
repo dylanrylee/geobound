@@ -6,6 +6,7 @@
 
 
 ## File Architecture
+```
 GeoBound/
 ├── data/               # data-loading & preprocessing scripts
 ├── notebooks/          # EDA, demos with Agriculture-Vision samples
@@ -15,3 +16,4 @@ GeoBound/
 │   └── utils.py        # post-processing (morphology, contour extraction)
 ├── requirements.txt
 ├── README.md
+```
