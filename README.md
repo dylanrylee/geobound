@@ -5,15 +5,20 @@
 [![DeepLab v3+](https://img.shields.io/badge/model-DeepLab%20v3%2B-green)](#)
 
 
-## File Architecture
+## Data Folder Architecture
 ```
-GeoBound/
-├── data/               # data-loading & preprocessing scripts
-├── notebooks/          # EDA, demos with Agriculture-Vision samples
-├── src/
-│   ├── dataset.py      # loader (SentinelHub + HF Datasets)
-│   ├── model.py        # DeepLab v3+ definition & training loop
-│   └── utils.py        # post-processing (morphology, contour extraction)
-├── requirements.txt
-├── README.md
+data/
+├─ Map1/
+│   ├─ Map1.tif          ← your orthoimage (GeoTIFF or TIFF+Map1.tfw)
+│   └─ Numbers/          ← one KML per field
+│       ├─ 001.kml
+│       ├─ 002.kml
+│       └─ …
+└─ Map2/
+    ├─ Map2.tif
+    └─ Numbers/
+        ├─ 001.kml
+        ├─ 002.kml
+        └─ …
+
 ```
