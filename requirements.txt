@@ -1,6 +1,17 @@
-# core ML & DL
+# core ML & DL frameworks
 torch>=2.0.0
 torchvision>=0.15.0
+tensorflow>=2.12.0
+keras>=2.12.0
+scikit-learn>=1.2.0
+
+# data & utilities
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+pillow>=9.5.0
+opencv-python>=4.8.0
 
 # segmentation models
 segmentation-models-pytorch>=0.3.1
@@ -11,9 +22,5 @@ fiona>=1.9.0
 shapely>=2.0.1
 pyproj>=3.6.0
 
-# general utilities
-numpy>=1.24.0
+# progress bars
 tqdm>=4.65.0
-
-# (optional) for plotting / debugging
-matplotlib>=3.7.0
