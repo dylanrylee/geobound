@@ -17,6 +17,7 @@ opencv-python>=4.8.0
 segmentation-models-pytorch>=0.3.1
 
 # geospatial I/O and reprojection
+geopandas
 rasterio>=1.4.0
 fiona>=1.9.0
 shapely>=2.0.1
